@@ -80,7 +80,7 @@
 			<h2 class="mb-12 text-center text-4xl font-bold text-blue-300 sm:text-5xl">My Teachers</h2>
 			<div class="grid gap-6 sm:grid-cols-2">
 				<div class="rounded-xl bg-indigo-900/50 p-6 shadow-xl transition-all hover:scale-105">
-					<h3 class="mb-2 text-2xl font-semibold text-blue-200">Ms. Cooper</h3>
+					<h3 class="mb-2 text-2xl font-semibold text-blue-200">Mrs. Cooper</h3>
 					<p class="text-lg font-medium text-blue-300">Homeroom Teacher</p>
 					<p class="mt-4 text-lg">
 						Thank you so much for being a amazing teacher, I always had fun in class,
