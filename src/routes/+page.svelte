@@ -10,7 +10,7 @@
 			(entries) => {
 				entries.forEach((entry) => {
 					const index = sections.indexOf(entry.target as HTMLElement);
-					visible.update(set => {
+					visible.update((set) => {
 						if (entry.isIntersecting) {
 							set.add(index);
 						} else {
@@ -50,6 +50,7 @@
 			<h1 class="text-5xl font-bold tracking-tight sm:text-7xl">
 				<span class="block text-blue-300">Farewell</span>
 				<span class="mt-2 block">Grade 8</span>
+				<span class="mt-2 block space-x-2 text-sm text-gray-400">By Bisher Al Masri</span>
 			</h1>
 			<div class="mt-8 animate-bounce">
 				<svg
@@ -83,34 +84,33 @@
 					<h3 class="mb-2 text-2xl font-semibold text-blue-200">Mrs. Cooper</h3>
 					<p class="text-lg font-medium text-blue-300">Homeroom Teacher</p>
 					<p class="mt-4 text-lg">
-						Thank you so much for being a amazing teacher, I always had fun in class,
-                        and this was definitely the best year in middle school.
+						Thank you so much for being a amazing teacher, I always had fun in class, and this was
+						definitely the best year in middle school.
 					</p>
 				</div>
 				<div class="rounded-xl bg-indigo-900/50 p-6 shadow-xl transition-all hover:scale-105">
 					<h3 class="mb-2 text-2xl font-semibold text-blue-200">Mr. Cooper</h3>
 					<p class="text-lg font-medium text-blue-300">English Teacher</p>
 					<p class="mt-4 text-lg">
-						Thank you for always finding a creative way to teach, I had so many fun 
-                        and notable times in class
+						Thank you for always finding a creative way to teach, I had so many fun and notable
+						times in class
 					</p>
 				</div>
 				<div class="rounded-xl bg-indigo-900/50 p-6 shadow-xl transition-all hover:scale-105">
 					<h3 class="mb-2 text-2xl font-semibold text-blue-200">Mr. Doiu</h3>
 					<p class="text-lg font-medium text-blue-300">French Teacher</p>
 					<p class="mt-4 text-lg">
-                        Merci d'avoir toujours été si encourageante et de nous avoir aidés à apprendre le français de façon amusante,
-                        J'ai passé trois années formidables en français avec vous. Merci.
-                        
-                        
+						Merci d'avoir toujours été si encourageante et de nous avoir aidés à apprendre le
+						français de façon amusante, J'ai passé trois années formidables en français avec vous.
+						Merci.
 					</p>
 				</div>
 				<div class="rounded-xl bg-indigo-900/50 p-6 shadow-xl transition-all hover:scale-105">
 					<h3 class="mb-2 text-2xl font-semibold text-blue-200">Mr. Dickson</h3>
 					<p class="text-lg font-medium text-blue-300">Music Teacher</p>
 					<p class="mt-4 text-lg">
-						Lastly, thank you for another amazing 3 years of music, you always tought has
-						music in a entertaining way, Thank you.
+						Lastly, thank you for another amazing 3 years of music, you always tought has music in a
+						entertaining way, Thank you.
 					</p>
 				</div>
 			</div>
@@ -127,14 +127,12 @@
 			<h2 class="mb-8 text-4xl font-bold text-blue-300 sm:text-5xl">Farewell Message</h2>
 			<div class="rounded-xl bg-gradient-to-r from-blue-800 to-indigo-800 p-8 shadow-2xl">
 				<p class="text-xl leading-relaxed">
-					Thank you so much to all of my teachers for the amazing time in class,
-					I always had fun learning in class and this was definitely the best year
-					in my academic life. I'm very grateful for the amazing teachrs I had,
-                    thank you.
+					Thank you so much to all of my teachers for the amazing time in class, I always had fun
+					learning in class and this was definitely the best year in my academic life. I'm very
+					grateful for the amazing teachers I had, thank you.
 				</p>
 				<p class="mt-6 text-2xl font-bold text-blue-200">- Bisher Al Masri</p>
 			</div>
-			
 		</div>
 	</section>
 </div>
@@ -183,3 +181,4 @@
 		animation: slideInLeft 1s ease-out forwards;
 	}
 </style>
+
